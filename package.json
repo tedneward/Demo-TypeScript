@@ -1,0 +1,26 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "A collection of TypeScript demos",
+  "homepage": "https://github.com/tedneward/Demo-TypeScript#readme",
+  "bugs": {
+    "url": "https://github.com/tedneward/Demo-TypeScript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedneward/Demo-TypeScript.git"
+  },
+  "license": "ISC",
+  "author": "Ted Neward",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "tsbuild:debug": "./node_modules/typescript/bin/tsc --project ./typescript",
+    "tsbuild": "npm run tsbuild:debug",
+    "clean": "rm build/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
